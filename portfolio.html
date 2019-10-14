@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Andrew Stehno Portfolio</title>
+    <!-- Materialize CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link src="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="red darken-4">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">Andrew Stehno</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class="waves-effect waves-light" href="index.html">About Me</a></li>
+                <li><a class="waves-effect waves-light" href="portfolio.html">Portfolio</a></li>
+                <li><a class="waves-effect waves-light modal-trigger" href="#contact-modal">Contact</a>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mobile side nav -->
+
+    <ul id="slide-out" class="sidenav hide-on-large-only">
+      <li><div class="user-view">
+        <div class="background">
+          <img src="#">
+        </div>
+        <a href="#user"><img class="circle" src="#"></a>
+        <a href="#name"><span class="white-text name">John Doe</span></a>
+        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+      </div></li>
+      <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+      <li><a href="#!">Second Link</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a></i></a>
+
+    <!-- Main content row -->
+    <div class="row section">
+        <div class="col l3 hide-on-med-and-down" id="links">
+            <h4>Links</h4>
+            <ul>
+                <li><a src="#">assignment</a></li>
+                <li><a src="#">assignment</a></li>
+                <li><a src="#">assignment</a></li>
+                <li><a src="#">assignment</a></li>
+            </ul>
+        </div>
+
+        <!-- <div class="col l3 hide-on-med-and-down">
+            <div class="card">
+                <div class="card-content">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a src="#">assignment</a></li>
+                        <li><a src="#">assignment</a></li>
+                        <li><a src="#">assignment</a></li>
+                        <li><a src="#">assignment</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="col s12 m4 l3">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/150">
+                    <span class="card-title">Project 1</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4 l3">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/150">
+                    <span class="card-title">Project 2</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4 l3">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/150">
+                    <span class="card-title">Project 3</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal">
+        <i class="material-icons modal-close right small grey lighten-1">close</i>
+        <div class="modal-content">
+            <h4>Hey there!</h4>
+            <p>I'd love to connect with you, but let's face it, nobody likes spam. PLease contact me via Linkdin: </p>
+            <br>
+            <a href="https://www.linkedin.com/in/andrew-stehno-0a2831189/" target="_blank" id="my-link">
+                <h5>Connect with me
+                    here!</h5>
+            </a>
+        </div>
+        <div class="modal-footer">
+            <a class="waves-effect waves-light red darken-4 btn modal-close left">Close</a>
+        </div>
+    </div>
+
+    <!-- JQuery CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Materiliaze JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- External JS -->
+    <script src="assets/javascript/app.js" type="text/javascript"></script>
+</body>
+
+</html>
