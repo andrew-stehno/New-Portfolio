@@ -6,12 +6,6 @@ body {
     border: 1px solid black;
 }
 
-/* #portfolio-nav, .main-body {
-    padding-left: 300px;
+.modal-content p {
+    font-size: 20px;
 }
-
-@media only screen and (max-width: 992px) {
-    #portfolio-nav, .main-body {
-        padding-left: 0;
-    }
-} */
