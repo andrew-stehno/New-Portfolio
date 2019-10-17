@@ -2,6 +2,13 @@ body {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
+#me-pic {
+    transform: rotate(90deg);
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+}
+
 #links {
     border: 1px solid black;
 }
